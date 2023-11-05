@@ -5,7 +5,7 @@ html {
 body {
   position: fixed;
   font-family: sans-serif;
-  color: #2c3e50;
+  color: #602c91;
   margin: 0;
   width: 100%;
   height: 100%;
@@ -33,7 +33,7 @@ body {
 }
 
 .note.active {
-  color: #e74c3c;
+  color: #1b1988;
 }
 
 .notes-list {
@@ -41,12 +41,10 @@ body {
   overflow: -moz-scrollbars-none;
   white-space: nowrap;
   -ms-overflow-style: none;
-  -webkit-mask-image: -webkit-linear-gradient(
-    left,
-    rgba(255, 255, 255, 0),
-    #fff,
-    rgba(255, 255, 255, 0)
-  );
+  -webkit-mask-image: -webkit-linear-gradient(left,
+      rgba(255, 255, 255, 0),
+      #fff,
+      rgba(255, 255, 255, 0));
 }
 
 .notes-list::-webkit-scrollbar {
@@ -105,7 +103,7 @@ body {
 .meter-dot {
   width: 10px;
   height: 10px;
-  background: #2c3e50;
+  background: #1b1988;
   border-radius: 50%;
   position: absolute;
   bottom: -5px;
@@ -145,7 +143,7 @@ body {
 }
 
 .swal-button {
-  background: #2c3e50;
+  background: #1b1988;
 }
 
 .a4 {
@@ -155,7 +153,8 @@ body {
 }
 
 .a4 span {
-  color: #e74c3c;
+  color: rgb(76, 124, 219);
+  font-size: 250%;
 }
 
 .auto {
